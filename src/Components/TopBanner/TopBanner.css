@@ -1,0 +1,41 @@
+.topbanner_main{
+    display:flex;
+    position: relative;
+    justify-content: center;
+    height: 600px;
+    width: 100%;
+    }
+.imag{
+    object-fit:cover;
+    width: 100%;
+}
+
+.topbanner_heading_section{
+    position: absolute;
+    top: 10em;
+    background-color: beige;
+    padding: 20px;
+    opacity: .5;
+    border-radius: 4px;
+}
+.topbanner_heading{
+    font-size: 50px;
+   align-items: center;
+   opacity: 1;
+   color: currentColor;
+   font-family: "sans-serif";
+   font-weight: 600;
+}
+
+@media only screen and (max-width:490px) {
+    .topbanner_heading {
+        font-size: 25px;
+    }
+    .deals_content {
+       justify-content: center !important;
+       align-items: center;
+    }
+    .deals_user{
+        width: 300px;
+    }
+}

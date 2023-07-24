@@ -1,0 +1,20 @@
+.api_section{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    gap: 20px;
+}
+.text{
+    font-size: 24px;
+    font-weight: 600;
+    color: brown;
+}
+.text1{
+    font-size: 24px;
+    font-weight: 600;
+}
+.api{
+    display: flex;
+    gap: 50px;
+}
